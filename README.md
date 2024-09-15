@@ -1,6 +1,6 @@
 # ReconCam - PehchanKaun
 
-![ReconCam Logo](path_to_logo_image)
+![ReconCam Logo](logo.jpg)
 
 ## Tagline
 *PehchanKaun* - Recognizing faces, one at a time.
