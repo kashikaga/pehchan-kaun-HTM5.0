@@ -90,10 +90,4 @@ AWS for cloud infrastructure support.
 Streamlit for making web development easy with Python.
 Feel free to fork the project, explore the code, and contribute! If you have any questions or run into issues, feel free to reach out to us via issues or pull requests.
 
-markdown
-Copy code
 
-### Key Sections Explained:
-
-- *Project Overview* gives a brief description of ReconCam and its purpose.
-- **Features
