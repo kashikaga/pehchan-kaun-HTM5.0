@@ -44,50 +44,76 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/reconcam.git
    cd reconcam
-Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Ensure RedisDB is installed and running. You can use the following commands to start Redis:
+## Installation of Dependencies
 
-bash
-Copy code
-redis-server
-Running the Application
-To start the ReconCam application, run the following command:
+1. **Install Required Packages**  
+   Use the following command to install the necessary Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy code
+2. **Ensure RedisDB is Installed and Running**  
+   Start RedisDB using the command:
+   ```bash
+   redis-server
+   ```
+
+## Running the Application
+
+To start the ReconCam application, execute:
+```bash
 streamlit run app.py
-Deployment
+```
+
+## Deployment Instructions
+
 The project is currently deployed on an AWS VM. To replicate the deployment:
 
-Set up an AWS EC2 instance.
-Install the required dependencies on the instance.
-Run the application using the Streamlit command provided above.
-Work is ongoing to integrate a custom domain and add SSL/TSL certification for secure communication.
-Roadmap
- Student face recognition system
- Surveillance and reconnaissance use cases
- Full domain integration with SSL/TSL
- Enhanced analytics and reporting for users
-Contributing
-We welcome contributions! Please follow the steps below to contribute to ReconCam:
+1. Set up an **AWS EC2 instance**.
+2. Install the required dependencies on the instance.
+3. Run the application using the Streamlit command provided above.
 
-Fork the repository.
-Create a new branch for your feature: git checkout -b feature-name.
-Commit your changes: git commit -m 'Add feature'.
-Push to the branch: git push origin feature-name.
-Open a pull request.
-License
+**Note:** Work is ongoing to integrate a custom domain and add SSL/TLS certification for secure communication.
+
+## Roadmap
+
+- **Student face recognition system**
+- **Surveillance and reconnaissance use cases**
+- **Full domain integration with SSL/TLS**
+- **Enhanced analytics and reporting for users**
+
+## Contributing
+
+We welcome contributions! Please follow these steps to contribute to ReconCam:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-InsightFace for their open-source library.
-RedisDB for providing fast in-memory caching.
-AWS for cloud infrastructure support.
-Streamlit for making web development easy with Python.
-Feel free to fork the project, explore the code, and contribute! If you have any questions or run into issues, feel free to reach out to us via issues or pull requests.
+## Acknowledgments
+
+- **InsightFace** for their open-source library.
+- **RedisDB** for providing fast in-memory caching.
+- **AWS** for cloud infrastructure support.
+- **Streamlit** for making web development easy with Python.
+
+Feel free to fork the project, explore the code, and contribute! If you have any questions or run into issues, reach out via issues or pull requests.
+
 
 
